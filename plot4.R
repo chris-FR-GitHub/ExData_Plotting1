@@ -66,8 +66,6 @@ png(filename = "plot4.png",
 
 # for the english date
 oldloc <- Sys.getlocale("LC_TIME")
-
-
 Sys.setlocale("LC_TIME", "English")
 
 # set the 2 by 2 graph placeholder
@@ -77,7 +75,7 @@ par(mfrow=c(2,2))
 plot(hpc$DateTime, 
      hpc$Global_active_power,
      type='l',
-     col='blue',
+     col='black',
      xlab='',
      ylab='Global Active Power')
 
@@ -85,7 +83,7 @@ plot(hpc$DateTime,
 plot(hpc$DateTime, 
      hpc$Voltage,
      type='l',
-     col='blue',
+     col='black',
      xlab='Datetime',
      ylab='Voltage')
 
@@ -101,14 +99,15 @@ lines(hpc$DateTime, hpc$Sub_metering_3, col='blue')
 legend("topright", 
        lwd=1,
        col=c("black","red","blue"), 
-       legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3")
+       legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),
+       bty = "n"
        )
 
 # Graph 4: lower, right
 plot(hpc$DateTime, 
      hpc$Global_reactive_power,
      type='l',
-     col='blue',
+     col='black',
      xlab='Datetime',
      ylab='Global ReactivePower')
 

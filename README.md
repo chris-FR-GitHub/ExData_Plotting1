@@ -1,3 +1,48 @@
+# Coursera - Johns-Hopkins
+## Data Science track - #04 Exploratory Data Analysis
+
+web site : [Johns Hopkins University - Coursera](https://www.coursera.org/jhu)
+
+## Week 1: Programming Assignment
+
+This folder contains the 1st programming assignment project of the 4th course of the serie.
+<br/>
+
+### Description
+
+The goal of this assignment is to replicate 4 graphes using the BASE plot functions.
+
+The repo contains: 
+- the 4 plot**X**.R code
+- the 4 generated PNG files : plot**X**.png
+- the **read_csv_chunked.R** file: this file is test to try the loading the file "by chunk" (using the `readr` package)
+
+Here are the generated graphs:
+
+- **Plot 1**
+
+
+![plot1.png](plot1.png)
+
+
+- **Plot 2**
+
+![plot2.png](plot2.png) 
+
+
+- **Plot 3**
+
+![plot3.png](plot3.png) 
+
+
+- **Plot 4**
+
+![plot4.png](plot4.png) 
+
+
+---
+
+# Original readme file (containing the instructions)
 ## Introduction
 
 This assignment uses data from
