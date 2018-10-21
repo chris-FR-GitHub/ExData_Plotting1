@@ -73,7 +73,7 @@ with(hpc,
      plot(DateTime, 
           Global_active_power,
           type='l',
-          col='blue',
+          col='black',
           xlab='',
           ylab='Global Active Power (kilowatts)')
 )
