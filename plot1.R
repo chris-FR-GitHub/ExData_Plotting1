@@ -62,7 +62,7 @@ png(filename = "plot1.png",
 
 hist(hpc$Global_active_power, 
      col="red",
-     main="[Chris-FR-Fithub] Global Active Power", 
+     main="Global Active Power", 
      xlab='Global Active Power (kilowatts)')
 
 dev.off()
