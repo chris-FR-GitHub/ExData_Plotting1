@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> fe33ce1272fd99fe82a44779c20725d59bb097d9
 # Coursera - Johns-Hopkins
 ## Data Science track - #04 Exploratory Data Analysis
 
